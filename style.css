@@ -1,0 +1,180 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+/*Navbar*/
+
+#navbar {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    gap: 45px;
+    border-bottom: solid black 1px;
+    align-items: center;
+}
+
+#one__title {
+    color: #953ed5;
+
+}
+
+#nav__2 {
+    display: flex;
+    gap: 20px;
+    border: solid black 3px;
+    align-items: center;
+    width: 200px border-radius:20px;
+    padding: 10px;
+    width: 60%;
+    border-radius: 30px
+}
+
+#nav__2 input {
+    font-size: 16px;
+    border: none;
+    width: 100%;
+}
+
+#nav__2 input:focus {
+    outline: none;
+}
+
+#nav__3 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/*Categories*/
+
+#categories {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: solid black 1px;
+    color: white;
+    align-items: center;
+
+
+}
+
+#categories p {
+    background-color: #953ed5;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+
+
+}
+
+/*Sale Image*/
+#sale img {
+    width: 100%
+}
+
+#rec {
+
+    padding: 20px;
+    margin: 20px;
+
+
+}
+
+#con_container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.container {
+
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+
+}
+
+.container img {
+    border-radius: 20px;
+    ;
+    height: 60%;
+    width: 100%
+}
+
+/*Topic*/
+#topic {
+    padding: 20px;
+    margin: 20px;
+
+}
+
+#topic__container {
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+#topic__container p {
+    border: solid gray 2px;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+    box-sizing: border-box;
+
+
+}
+
+#popular{
+    padding:20px;
+    margin:20px;
+    
+}
+
+#popular__container{
+     display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    flex-wrap: wrap;
+   
+}
+
+/*Footer*/
+#footer{
+padding:20px;
+background-color: black;
+color: White;
+
+}
+#footer__one{
+    display:flex;
+    gap:10px;
+    
+    
+}
+#footer__two{
+    margin-left:10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#footer__one p{
+    margin:10px;
+}
